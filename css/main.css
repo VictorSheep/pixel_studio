@@ -5,20 +5,25 @@ body{
 }
 
 #palette{
-	width:120px;
+	width:80px;
 	background-color: rgba(200,200,200,0.5);
+	margin-top: 30px;
+	margin-left: 0;
+	padding: 10px 10px 10px 15px;
+	border-radius: 0px 7px 7px 0px;
 }
 
 #toolkit,
 #colorkit{
 	width: 100%;
-	margin: 10px;
+	margin-top: 10px;
 }
 
 .tool, .color{
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	border: 2px solid #888;
+	margin: 0px 2px;
 	display: inline-block;
 }
 .tool:hover, .color:hover{
