@@ -7,8 +7,14 @@ var pixelStudio = {
 			new Color('vert',37,250,37),
 			new Color('bleu',37,37,250)
 		];
-		this.palette.initColor(COLORS);
 
-		console.log("init terminer");
+		let TOOLS =[
+			new Tool('pinceau','<i class="fa fa-paint-brush" aria-hidden="true"></i>')
+		];
+
+		this.palette.initColor(COLORS);
+		this.palette.clicColor();
+
+		console.log("init terminé");
 	}
 }
