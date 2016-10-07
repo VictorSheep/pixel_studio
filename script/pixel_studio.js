@@ -1,0 +1,5 @@
+var pixelStudio = {
+	init: function(){
+
+	},
+}

@@ -1,0 +1,3 @@
+pixelStudio.palette={
+	
+}

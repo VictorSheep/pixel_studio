@@ -1,0 +1,26 @@
+body{
+	width: 100%;
+	margin: 0; padding: 0;
+	background-color: #243035;
+}
+
+#palette{
+	width:120px;
+	background-color: rgba(200,200,200,0.5);
+}
+
+#toolkit,
+#colorkit{
+	width: 100%;
+	margin: 10px;
+}
+
+.tool, .color{
+	width: 40px;
+	height: 40px;
+	border: 2px solid #888;
+	display: inline-block;
+}
+.tool:hover, .color:hover{
+	border: 2px solid #DDD;
+}
